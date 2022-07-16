@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prusa Impresiones</title>
+    <link rel="shortcut icon" href="imagenes/LOGO PRUSA.png">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body class="fondo">
+    <!-- Barra de Navegacion -->
+    <header class="barra_navegacion"> 
+        <div>
+            <a href="index.html"><img src="imagenes/LOGO PRUSA.png" alt="logo prusa" id="logo"></a>
+        </div>
+        <nav>
+            <ul id="elementos_nav"> 
+                <li><a href="Modelos.html">Modelos</a></li>
+                <li><a href="Quienes Somos.html">Quienes Somos</a></li>
+                <li><a href="Realizar Pedidos.html">Realizar Pedidos</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="titulo"> 
+        Elaborar Pedido
+    </h1>
+    <!-- Cuerpo del texto -->
+    <form action="">
+        <fieldset>
+            <legend>Detalles del Pedido</legend>
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="Nombre", id="Nombre", placeholder="Ingresa tu Nombre", required>
+            <br>
+            <br>
+            <label for="Teléfono de Contacto">Teléfono de Contacto</label>
+            <input type="number" name="Teléfono de Contacto", id="Teléfono de Contacto", placeholder="000 - 000 - 000", required>
+            <br>
+            <br>
+            <label for="Correo Electrónico">Correo Electrónico</label>
+            <input type="email" name="Correo Electrónico", id="Correo Electrónico", placeholder="Ingresa tu correo", required> 
+            <br>
+            <br>
+            <label for="Imagen">Imagen</label>
+            <input type="url" name="Imagen", id="Imagen", placeholder="Ingresa link de imagen", required>
+            <label for="Tamaño">Tamaño</label>
+            <select name="Tamaño" id="Tamaño", required>
+                <option value="">Selecciona el Tamaño</option>
+                <option value="Pequeño">Pequeño (5 cm. x 5 cm.)</option>
+                <option value="Mediano">Mediano (10 cm. x 10 cm.)</option>
+                <option value="Grande">Grande (15 cm. x 15 cm.)</option>
+            </select>
+            <br>
+            <br>
+            <label for="Detalles del diseño">Detalles del diseño</label>
+            <br>
+            <textarea name="Detalles de Diseño" id="" cols="30" rows="10", placeholder="Cuentanos como quieres tu diseño...", required></textarea>
+            <br>
+            <br>
+            <div>Forma de Pago
+                <br>
+                <br>
+                <input type="radio", name="cbox1", required>Débito
+                <input type="radio", name="cbox1", required>Crédito
+                <input type="radio", name="cbox1", required>Giro
+            </div>
+            <br>
+            <br>
+            <input type="submit", value="Enviar Formulario">
+            <input type="reset", value="Reestablecer">
+        </fieldset>
+    </form>
+    <!-- Footer -->
+    <footer class="footer">
+        <small> 
+            Derechos Reservados
+        </small>
+        <address>
+            Teléfono de Contacto: 091 - 000 - 000
+        </address>
+    </footer>
+</body>
+</html>
