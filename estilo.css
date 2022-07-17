@@ -70,6 +70,10 @@ a{
     justify-content: center;
     font-size: 6rem;
     color: rgb(125, 27, 27);
+    animation: rubberBand;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
 }
 .definicion{
     font-family: 'Josefin Sans', sans-serif;
