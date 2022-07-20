@@ -115,6 +115,9 @@ th, td{
     justify-content: center;
     gap: 50px;
 }
+.formulario{
+    background-color: aliceblue;
+}
 /* FOOTER */
 .footer{
     margin-top: 50px;
