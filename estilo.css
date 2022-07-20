@@ -117,6 +117,8 @@ th, td{
 }
 .formulario{
     background-color: aliceblue;
+    margin: 1rem;
+    width: 50%;
 }
 /* FOOTER */
 .footer{
