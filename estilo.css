@@ -115,6 +115,42 @@ th, td{
     justify-content: center;
     gap: 50px;
 }
+.img_2:hover{
+    transform: scale(1.2);
+}
+.img_3:hover{
+    transform: scale(1.2);
+}
+.img_4:hover{
+    transform: scale(1.2);
+}
+.img_5:hover{
+    transform: scale(1.2);
+}
+.img_6:hover{
+    transform: scale(1.2);
+}
+.img_7:hover{
+    transform: scale(1.2);
+}
+.img_8:hover{
+    transform: scale(1.2);
+}
+.img_9:hover{
+    transform: scale(1.2);
+}
+.img_10:hover{
+    transform: scale(1.2);
+}
+.img_11:hover{
+    transform: scale(1.2);
+}
+.img_12:hover{
+    transform: scale(1.2);
+}
+.img_13:hover{
+    transform: scale(1.2);
+}
 /* REALIZAR PEDIDOS */
 .formulario{
     background-color: aliceblue;
