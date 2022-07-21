@@ -115,10 +115,20 @@ th, td{
     justify-content: center;
     gap: 50px;
 }
+/* REALIZAR PEDIDOS */
 .formulario{
     background-color: aliceblue;
     margin: 1rem;
-    width: 50%;
+    width: 100%;
+    padding: 1rem;
+}
+.caja_principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#carouselExampleIndicators{
+    width: 40%;
 }
 /* FOOTER */
 .footer{
@@ -128,8 +138,6 @@ th, td{
     font-size: 200%;
     color: aliceblue;
 }
-
-
 /* CELULARES */
 /* @media (min-width: 480px){
 .barra_navegacion{
